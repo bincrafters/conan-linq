@@ -10,7 +10,7 @@ class LinqConan(ConanFile):
     version = "2.0"
     description = "Linq for list comprehension in C++"
     homepage = "https://github.com/pfultz2/Linq"
-    topics = ["linq", "list-comprehension", "ranges"]
+    topics = ("linq", "list-comprehension", "ranges")
     url = "https://github.com/bincrafters/conan-linq"
     author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSL-1.0"
