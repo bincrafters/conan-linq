@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     env:
       CONAN_USE_DOCKER: 1
-      CONAN_CLANG_VERSIONS: 8
+      CONAN_CLANG_VERSIONS: "8"
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-python@v1
@@ -26,7 +26,7 @@ jobs:
   MSVC:
     runs-on: windows-latest
     env:
-      CONAN_VISUAL_VERSIONS: 16
+      CONAN_VISUAL_VERSIONS: "16"
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-python@v1
