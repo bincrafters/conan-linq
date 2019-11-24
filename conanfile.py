@@ -9,7 +9,6 @@ class LinqConan(ConanFile):
     homepage = "https://github.com/pfultz2/Linq"
     topics = ("linq", "list-comprehension", "ranges")
     url = "https://github.com/bincrafters/conan-linq"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "BSL-1.0"
     no_copy_source = True
     requires = "boost/1.68.0@conan/stable"
